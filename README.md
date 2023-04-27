@@ -10,6 +10,16 @@
 - Navigate to the directory where the repository is stored
 - Select the Unity folder and click open
 
+### Opening the Main Menu Scene
+- Go to the project folder in Unity
+
+![image](https://user-images.githubusercontent.com/100613566/235009488-4a878554-ba9a-4e67-ad85-6f858a902807.png)
+
+
+
+![image](https://user-images.githubusercontent.com/100613566/235009727-1ec64896-079f-4475-b419-b00cc60356ec.png)
+
+
 The main menu screen will be presented first if the user is in the racing UI scene. The user can select either the Start button or the AI Console button. The start button will allow the user to control the car movements using the arrow keys. The forward and backward keys will allow the car to move forward or reverse. The left and right arrow keys will allow the user to move left and right. 
 
 If the user chooses the AI Console, it will open up the coastal track scene and the car will drive on its own. The car is learning how to drive around the track through Q-learning. This mode requires a server. 
