@@ -1,6 +1,6 @@
-# Autonomous-Racing-with-Q-Learning
+# AI Anarchy
 
-## AI Anarchy
+## Autonomous-Racing-with-Q-Learning
 
 ### Opening the project in Unity3d
 
