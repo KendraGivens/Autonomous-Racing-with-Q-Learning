@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Keras.NET" Version="3.8.5" />
+    <PackageReference Include="Numpy.Bare" Version="3.8.1.28" />
+    <PackageReference Include="python" Version="3.8.0" />
+    <PackageReference Include="SciSharp.TensorFlow.Redist" Version="2.11.0" />
+    <PackageReference Include="TensorFlow.Keras" Version="0.10.4" />
+    <PackageReference Include="TensorFlow.NET" Version="0.100.4" />
+  </ItemGroup>
+
+</Project>
