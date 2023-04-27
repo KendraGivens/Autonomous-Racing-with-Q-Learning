@@ -12,21 +12,25 @@
 
 ### Opening the Main Menu Scene
 - Go to the project folder in Unity
+- Open up the Scenes folder
+- To view the Main Menu Scene open up the RacingUI scene
 
-![image](https://user-images.githubusercontent.com/100613566/235009488-4a878554-ba9a-4e67-ad85-6f858a902807.png)
-
-
+### Get User Control
+- Go to the inspector and click on the white car object
+- Ensure that the AI Controlled checkbox shown below is unchecked
+- Click play
+- Two buttons: Start and AI Console will be shown
+- Click Start to get to a user controlled car that can move through arrow keys
 
 ![image](https://user-images.githubusercontent.com/100613566/235009727-1ec64896-079f-4475-b419-b00cc60356ec.png)
 
+![image](https://user-images.githubusercontent.com/100613566/235009488-4a878554-ba9a-4e67-ad85-6f858a902807.png)
 
-The main menu screen will be presented first if the user is in the racing UI scene. The user can select either the Start button or the AI Console button. The start button will allow the user to control the car movements using the arrow keys. The forward and backward keys will allow the car to move forward or reverse. The left and right arrow keys will allow the user to move left and right. 
-
-If the user chooses the AI Console, it will open up the coastal track scene and the car will drive on its own. The car is learning how to drive around the track through Q-learning. This mode requires a server. 
-
-In either mode, the user can press P to pause the game which will also stop all music. From the pause menu, the user can exit to the main menu where they can choose different mode. 
-
-There is an error that pops up saying the Fody package is malfunctioning, but it can be ignored and the game will still run.
+### Get AI Control
+There is currently a bug in the AI Console button, so to access the AI control, open up the AI scene
+- Click on the car object and ensure that AI Controlled is checked
+- Follow the directions below to set up the server enviroment
+- Start the server before pressing play in the Unity Engine
 
 ### Configure server enviroment
 The enviroment requires the Python 3.8 DLL. It must be set up as an enviroment variable with a path such as C:\Python38
