@@ -10,6 +10,7 @@ If the user chooses the AI Console, it will open up the coastal track scene and 
 
 In either mode, the user can press P to pause the game which will also stop all music. From the pause menu, the user can exit to the main menu where they can choose different mode. 
 
+There is an error that pops up saying the Fody package is malfunctioning, but it can be ignored and the game will still run.
 
 ## Configure server enviroment
 The enviroment requires the Python 3.8 DLL. It must be set up as an enviroment variable with a path such as C:\Python38
