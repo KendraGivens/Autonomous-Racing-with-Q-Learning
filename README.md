@@ -2,7 +2,13 @@
 
 ## AI Anarchy
 
-This program is designed to be run on Unity3d. 
+### Opening the project in Unity3d
+
+- Run the command git clone
+- Open the Unity Editor
+- Click open project
+- Navigate to the directory where the repository is stored
+- Select the Unity folder and click open
 
 The main menu screen will be presented first if the user is in the racing UI scene. The user can select either the Start button or the AI Console button. The start button will allow the user to control the car movements using the arrow keys. The forward and backward keys will allow the car to move forward or reverse. The left and right arrow keys will allow the user to move left and right. 
 
@@ -12,7 +18,7 @@ In either mode, the user can press P to pause the game which will also stop all 
 
 There is an error that pops up saying the Fody package is malfunctioning, but it can be ignored and the game will still run.
 
-## Configure server enviroment
+### Configure server enviroment
 The enviroment requires the Python 3.8 DLL. It must be set up as an enviroment variable with a path such as C:\Python38
 
 https://www.python.org/downloads/release/python-3810/
