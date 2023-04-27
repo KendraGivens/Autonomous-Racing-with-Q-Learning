@@ -4,7 +4,8 @@
 
 ### Opening the project in Unity3d
 
-- Run the command git clone
+- Open git bash or a terminal
+- Run the command git clone https://github.com/KendraGivens/Autonomous-Racing-with-Q-Learning.git
 - Open the Unity Editor
 - Click open project
 - Navigate to the directory where the repository is stored
