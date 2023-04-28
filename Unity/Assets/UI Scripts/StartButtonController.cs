@@ -13,6 +13,8 @@ public class StartButtonController : MonoBehaviour
 
     void StartGame()
     {
-        SceneManager.LoadScene("CoastalTrackDisplayScene"); // Replace "RaceTrackScene" with the name of your race track scene.
+        SceneManager.LoadScene("AI_Scene");
+        Agent.AI_Controlled = false;
+
     }
 }

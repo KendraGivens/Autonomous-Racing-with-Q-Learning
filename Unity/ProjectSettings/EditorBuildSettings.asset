@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Environmental Race Track Pack/Scenes/CoastalTrackDisplayScene.unity
-    guid: 874740ade97b7494d96c0fffb1c1c6f7
-  - enabled: 1
-    path: Assets/Environmental Race Track Pack/Scenes/RacingUI.unity
+    path: Assets/Track Scene/Scenes/RacingUI.unity
     guid: a4d1392592a18a3449c2381e6ce31e90
+  - enabled: 1
+    path: Assets/Track Scene/Scenes/AI_Scene.unity
+    guid: d75b3e9de647fb44fb1678f47caeddc0
   m_configObjects: {}

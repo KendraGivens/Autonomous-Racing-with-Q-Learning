@@ -21,7 +21,7 @@ public class Agent : MonoBehaviour
     public TextMeshProUGUI text_nturn;
     public TextMeshProUGUI text_turnr;
 
-    public bool AI_Controlled = true;
+    public static bool AI_Controlled = true;
 
     protected Model model = new Model();
     public CarController2 agent;
