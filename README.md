@@ -19,17 +19,10 @@
 ![image](https://user-images.githubusercontent.com/100613566/235009727-1ec64896-079f-4475-b419-b00cc60356ec.png)
 
 ### Get User Control
-- Go to the inspector and click on the white car object
-- Ensure that the AI Controlled checkbox shown below is unchecked
-- Click play
-- Two buttons: Start and AI Console will be shown
-- Click Start to get to a user controlled car that can move through arrow keys
-
-![image](https://user-images.githubusercontent.com/100613566/235009488-4a878554-ba9a-4e67-ad85-6f858a902807.png)
+- Click User Controlled to get to a user controlled car that can move through arrow keys
 
 ### Get AI Control
-There is currently a bug in the AI Console button, so to access the AI control, open up the AI scene
-- Click on the car object and ensure that AI Controlled is checked
+- Click on the AI Controlled button
 - Follow the directions below to set up the server enviroment
 - Start the server before pressing play in the Unity Engine
 
